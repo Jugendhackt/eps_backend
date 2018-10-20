@@ -6,7 +6,7 @@ module.exports = {
   login : function(uname, pass, callback){
     var mongoClient = mongo.MongoClient;
 
-    var url = "mongodb://localhost:27017/eps";
+    var url = "mongodb://p3h3.de:27017/eps";
 
     mongoClient.connect(url, function(error, db){
       if(error){
