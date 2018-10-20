@@ -1,4 +1,4 @@
-.container {
+.container2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,3 +9,25 @@
     animation-duration: 3s;
     animation-delay: 0.5s;
 }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1{
+    font-size: 77px !important;
+    margin: 0.4rem !important;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
