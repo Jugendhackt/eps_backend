@@ -1,19 +1,21 @@
 {
-  "name": "eps_backend",
-  "version": "1.0.0",
-  "description": "King",
-  "main": "index.js",
+  "name": "tweetguess",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jugendhackt/eps_backend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jugendhackt/eps_backend/issues"
-  },
-  "homepage": "https://github.com/Jugendhackt/eps_backend#readme"
+  "dependencies": {
+    "alasql": "^0.4.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "kerberos": "~0.0.17",
+    "mongodb": "~2.0.33",
+    "morgan": "~1.8.1",
+    "oauth": "^0.9.15",
+    "serve-favicon": "~2.4.2"
+  }
 }
